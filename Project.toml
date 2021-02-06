@@ -1,6 +1,11 @@
 name = "JuliaRL"
 authors = ["cjenssen0"]
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+ReinforcementLearning = "158674fc-8238-5cab-b5ba-03dfc80d1318"
+
 [compat]
 julia = "1.6.0"
-[deps]
-DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
