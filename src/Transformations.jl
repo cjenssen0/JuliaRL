@@ -10,7 +10,7 @@ findnearest(A, x) = argmin(abs.(A .- x))
 Mapping from continuous state-space to discrete for cartpole environment.
 For now, hardcoded bins...
 """
-function state_mapping(s)
+function state_mapping(s; nbins=5)
     s_bin1 = range(-3, 3, length=nbins)
     s_bin2 = range(-100, 100, length=nbins)
     s_bin3 = range(-0.3, 0.3, length=nbins)
